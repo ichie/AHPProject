@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/bag1"
+		android:title="Bagian 1"/>
+	<item
+        android:id="@+id/bag2"
+        android:title="Bagian 2"/>
+	<item
+        android:id="@+id/bag3"
+        android:title="Bagian 3"/>
+	<item
+        android:id="@+id/bag4"
+        android:title="Bagian 4"/>
+	<item
+        android:id="@+id/bag5"
+        android:title="Bagian 5"/>
+	<item
+        android:id="@+id/bag6"
+        android:title="Bagian 6"/>
+	<item
+        android:id="@+id/result"
+        android:title="Result"/>
+	
+</menu>

@@ -1,0 +1,60 @@
+<RelativeLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:background="#FFF8DC"
+	  android:fadingEdge="horizontal">
+	 <TextView
+	 		android:id="@+id/text"
+	 		android:text="Selamat Datang Admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dip"
+            android:textSize="25sp" >
+     </TextView>
+	 <EditText
+			android:id="@+id/username"
+			android:layout_width="213dip"
+			android:layout_marginTop="60dp"
+			android:layout_below ="@+id/text"
+			android:layout_centerHorizontal="true"
+			android:layout_height="wrap_content"
+			android:hint="username"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:typeface="sans"
+			android:textStyle="italic">
+	 </EditText>
+
+	 <EditText
+	     android:id="@+id/password"
+	     android:layout_width="211px"
+	     android:layout_height="wrap_content"
+	     android:layout_alignLeft="@+id/username"
+	     android:layout_alignRight="@+id/username"
+	     android:layout_below="@+id/username"
+	     android:ems="10"
+	     android:gravity="center"
+	     android:hint="password"
+	     android:password="true"
+	     android:textSize="18sp"
+	     android:textStyle="italic"
+	     android:typeface="sans" >
+
+	     <requestFocus />
+	 </EditText>
+
+	 <Button
+	     android:id="@+id/login"
+	     android:layout_width="141px"
+	     android:layout_height="wrap_content"
+	     android:layout_alignLeft="@+id/password"
+	     android:layout_alignRight="@+id/password"
+	     android:layout_below="@+id/password"
+	     android:layout_marginTop="15dp"
+	     android:text="Login"
+	     android:textSize="20sp" />
+
+</RelativeLayout>

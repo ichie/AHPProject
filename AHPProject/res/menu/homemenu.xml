@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bantuan"
+        android:title="Bantuan"/>
+    <item
+        android:id="@+id/tentang"
+        android:title="Tentang"/>
+    <item
+    	android:id="@+id/keluar"
+        android:title="Keluar"/>
+</menu>

@@ -1,0 +1,42 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:stretchColumns="1"
+	>
+	
+	<TableRow>
+		<TextView android:text="Username:" />
+		<EditText android:id="@+id/user"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Password:" />
+		<EditText android:id="@+id/pass"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Nama:" />
+		<EditText android:id="@+id/nama" />
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Jenis Kelamin:" />
+		<RadioGroup android:id="@+id/jekel">
+			<RadioButton android:id="@+id/pria"
+				android:text="Pria"
+			/>
+			<RadioButton android:id="@+id/perempuan"
+				android:text="Perempuan"
+			/>
+			
+		</RadioGroup>
+	</TableRow>
+	
+	<Button android:id="@+id/save"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Save"
+	/>
+</TableLayout>

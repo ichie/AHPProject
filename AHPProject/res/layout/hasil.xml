@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/judulhaker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kerja"
+            android:layout_marginBottom="20px"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+                android:id="@+id/judulhaker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indikator"
+                android:layout_marginBottom="10px"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+                android:id="@+id/judulhaker3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" "
+                 android:layout_marginBottom="10px"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+                android:id="@+id/judulhaker4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nilai"
+                 android:layout_marginBottom="10px"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ketidaktergantungan terhadap orang lain" />
+            
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/hkbag1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Memilih kepercayaan diri" />
+            
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+
+            <TextView
+                android:id="@+id/hkbag2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Berperilaku disiplin" />
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+            
+            <TextView
+                android:id="@+id/hkbag3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Memiliki rasa tanggung jawab" />
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+            
+            <TextView
+                android:id="@+id/hkbag4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+        
+       <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Berperilaku berdasarkan inisiatif sendiri" />
+            
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+            
+            <TextView
+                android:id="@+id/hkbag5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+        
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20px" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Melakukan kontrol diri" />
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" " />
+            
+            <TextView
+                android:id="@+id/hkbag6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+        
+        
+         <Button android:id="@+id/selanjutnya"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Selanjutnya"
+	/>
+
+</TableLayout>

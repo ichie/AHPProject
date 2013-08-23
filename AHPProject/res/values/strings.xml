@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AHPProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">Ini adalah Aplikasi Sistem Pendukung Keputusan dalam Penerapan Self-Regulated Learning dengan menggunakan Metode AHP (Analytical Hierarchy Process).</string>
+	<string name="aboutslr">Self-Regulated Learning merupakan proses perancangan dan pemantauan diri yang seksama terhadap proses kognitif dan afektif dalam menyelesaikan suatu tugas akademik.</string>
+	<string name="aboutapp">Aplikasi Sistem Pendukung Keputusan ini adalah merupakan instrumen pembantu dalam kemandirian belajar yang cukup teruji baik validitas maupun reliabialitasnya.</string>
+	<string name="hadmin">Untuk Admin ketika login pertama dapat menggunakan username dan password yang telah diberikan pembuat aplikasi. Untuk berikutnya dapat diganti sesuai keinginan.</string>
+	<string name="huser">Untuk User masukkan username dan password sesuai dengan data yang telah Anda berikan pada Admin. Serta harap melihat bantuan pada user menu terlebih dahulu sebelum memulai mengerjakan kuisioner dan melihat hasil.</string>
+	<string name="userhelp">Self-Regulated Learning merupakan proses perancangan dan pemantauan diri yang seksama terhadap proses kognitif dan afektif dalam menyelesaikan suatu tugas akademik.</string>
+	<string name="userhelp1">Aplikasi ini bisa diisikan lebih dari satu kali dan isilah kuisioner yang ada secara CERMAT dan JUJUR, sesuai dengan keadaan diri Anda</string>
+	<string name="userhelp3">Catatan: Kerjakan Kuisioner terlebih dahulu sebelum melihat hasil.</string>
+	<string name="helpadmin1">Pada Bagian tambah data, admin dapat menambahkan data user dengan menekan tombol menu/tombol di sebelah kiri. </string>
+	<string name="helpadmin2">Pada Bagian lihat semua kuisioner, admin dapat melihat semua daftar nilai yang telah dikerjakan oleh user</string>
+</resources>

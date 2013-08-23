@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/judulres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan Keputusan: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/yourname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total Hasil" />
+            
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="			" />
+
+            <TextView
+                android:id="@+id/th"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hasil Kalkulasi AHP" />
+            
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="			" />
+
+            <TextView
+                android:id="@+id/hka"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </TableRow>
+
+        <TextView
+            android:id="@+id/judulres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="Hasil Keputusan" />
+        
+        <TextView
+            android:id="@+id/keputusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <Button android:id="@+id/backtouser"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Kembali"
+	/>
+         
+         
+
+</TableLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fikri.ahpproject"
+    android:versionCode="1"
+    android:versionName="Beta (0.1)" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:vmSafeMode="false"><activity android:name="Home">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity><activity android:name="About">
+            <intent-filter>
+                <action android:name="android.app.action.about"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Help">
+            <intent-filter>
+                <action android:name="android.intent.action.help"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Userlogin">
+            <intent-filter>
+                <action android:name="android.intent.action.userlogin"/>
+            </intent-filter>
+        </activity><activity android:name="Usermenu">
+            <intent-filter>
+                <action android:name="android.intent.action.usermenu"/>
+            </intent-filter>
+        </activity><activity android:name="Adminmenu">
+            <intent-filter>
+                <action android:name="android.app.action.adminmenu" />
+            </intent-filter>
+        </activity><activity android:name="Adminlogin">
+            <intent-filter>
+                <action android:name="android.app.action.adminlogin"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Menuform">
+            <intent-filter>
+                <action android:name="android.intent.action.menuform"/>
+            </intent-filter>
+        </activity><activity android:name="DatabaseQuest"></activity>
+        <activity android:name="DatabaseUser"></activity>
+        <activity android:name="Tambahdata"></activity><activity android:name="Result">
+            <intent-filter>
+                <action android:name="android.intent.action.result"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Decision">
+            <intent-filter>
+                <action android:name="android.intent.action.decision"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="FormPertanyaan">
+            <intent-filter>
+                <action android:name="android.intent.action.formpertanyaan"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Helpadmin">
+            <intent-filter>
+                <action android:name="android.intent.action.helpadmin"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="Helpuser">
+            <intent-filter>
+                <action android:name="android.intent.action.helpuser"/>
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>

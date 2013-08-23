@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/buttonkerja1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 1" />
+    
+   <Button
+        android:id="@+id/buttonkerja2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 2" />
+   
+   <Button
+        android:id="@+id/buttonkerja3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 3" />
+   
+   <Button
+        android:id="@+id/buttonkerja4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 4" />
+   
+   <Button
+        android:id="@+id/buttonkerja5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 5" />
+    
+   <Button
+        android:id="@+id/buttonkerja6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Kerjakan Soal Bagian 6" />
+   
+
+
+
+</LinearLayout>

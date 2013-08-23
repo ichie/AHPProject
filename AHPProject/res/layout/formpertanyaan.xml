@@ -1,0 +1,877 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:background="#F5FFFA"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/itextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya belajar di bawah kendali orang lain."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/ssRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Setuju" />
+
+            <RadioButton
+                android:id="@+id/sRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju" />
+
+            <RadioButton
+                android:id="@+id/ksRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurang Setuju" />
+
+            <RadioButton
+                android:id="@+id/tsRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya meningkatkan prestasi belajar karena dorongan dari orang lain."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/ssRadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Setuju" />
+
+            <RadioButton
+                android:id="@+id/sRadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju" />
+
+            <RadioButton
+                android:id="@+id/ksRadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurang Setuju" />
+
+            <RadioButton
+                android:id="@+id/tsRadio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/no3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya memilih sendiri strategi belajar saya."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/ssRadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Setuju" />
+
+            <RadioButton
+                android:id="@+id/sRadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju" />
+
+            <RadioButton
+                android:id="@+id/ksRadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurang Setuju" />
+
+            <RadioButton
+                android:id="@+id/tsRadio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/no4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya menyelesaikan tugas-tugas perkuliahan saya sesuai dengan kemampuan saya sendiri."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/ssRadio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Setuju" />
+
+            <RadioButton
+                android:id="@+id/sRadio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju" />
+
+            <RadioButton
+                android:id="@+id/ksRadio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kurang Setuju" />
+
+            <RadioButton
+                android:id="@+id/tsRadio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagian 2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/no5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya memiliki keyakinan dapat mencapai tujuan belajar saya."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/no6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya tidak memiliki keyakinan bahwa saya mampu mengatasi masalah atau hambatan yang saya hadapi dalam kegiatan belajar saya."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/no7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya berani menyampaikan pendapat yang berbeda dari pendapat orang lain."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/itextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagian 3"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/no8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya senantiasa membuat perencanaan atas kegiatan belajar saya."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/no9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya tidak berusaha hadir kuliah tepat waktu."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/no10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saya senantiasa mengumpulkan tugas-tugas perkuliahan tepat waktu."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/ssRadio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sangat Setuju" />
+
+                <RadioButton
+                    android:id="@+id/sRadio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setuju" />
+
+                <RadioButton
+                    android:id="@+id/ksRadio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kurang Setuju" />
+
+                <RadioButton
+                    android:id="@+id/tsRadio10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tidak Setuju" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/itextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bagian 4"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/no11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya memacu diri untuk terus semangat dalam belajar."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/ssRadio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sangat Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/sRadio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/ksRadio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kurang Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/tsRadio11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Setuju" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/no12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya tidak berusaha melaksanakan rencana kegiatan belajar saya sebaik mungkin."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/ssRadio12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sangat Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/sRadio12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/ksRadio12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kurang Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/tsRadio12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Setuju" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/no13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saya mampu memfokuskan perhatian dalam kegiatan perkuliahan."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/ssRadio13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sangat Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/sRadio13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/ksRadio13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kurang Setuju" />
+
+                    <RadioButton
+                        android:id="@+id/tsRadio13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak Setuju" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/itextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bagian 5"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/no14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saya berpendapat secara sadar atas keinginan saya sendiri."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroup14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/ssRadio14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sangat Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/sRadio14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/ksRadio14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kurang Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/tsRadio14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Setuju" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/no15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saya bertindak secara sadar atas kehendak saya sendiri."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroup15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/ssRadio15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sangat Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/sRadio15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/ksRadio15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kurang Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/tsRadio15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Setuju" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/no16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saya tidak merencanakan sendiri kegiatan belajar saya."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroup16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/ssRadio16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sangat Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/sRadio16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/ksRadio16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kurang Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/tsRadio16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Setuju" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/no17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saya mengerjakan sosal-soal latihan, meskipun bukan sebagai tugas perkuliahan."
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroup17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:id="@+id/ssRadio17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sangat Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/sRadio17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/ksRadio17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kurang Setuju" />
+
+                        <RadioButton
+                            android:id="@+id/tsRadio17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Setuju" />
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/itextView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bagian 6"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/no18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saya yakin bahwa aktifitas belajar saya pada akhirnya berdampak pada diri saya sendiri."
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <RadioGroup
+                            android:id="@+id/RadioGroup18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <RadioButton
+                                android:id="@+id/ssRadio18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sangat Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/sRadio18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/ksRadio18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kurang Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/tsRadio18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tidak Setuju" />
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/no19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saya tidak mengevaluasi hasil belajar saya."
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <RadioGroup
+                            android:id="@+id/RadioGroup19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <RadioButton
+                                android:id="@+id/ssRadio19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sangat Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/sRadio19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/ksRadio19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kurang Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/tsRadio19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tidak Setuju" />
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/no20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saya mencermati kenaikan dan penurunan hasil belajar yang saya peroleh."
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <RadioGroup
+                            android:id="@+id/RadioGroup20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <RadioButton
+                                android:id="@+id/ssRadio20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sangat Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/sRadio20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/ksRadio20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kurang Setuju" />
+
+                            <RadioButton
+                                android:id="@+id/tsRadio20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tidak Setuju" />
+                        </RadioGroup>
+
+                        <Button
+                            android:id="@+id/save"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Save" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

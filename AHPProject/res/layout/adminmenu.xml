@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8DC" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu User"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="100px"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data" />
+    
+    <Button
+        android:id="@+id/lihat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua Kuisioner" />
+    
+    <Button
+        android:id="@+id/adminhelp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bantuan" />
+    
+    <Button
+        android:id="@+id/signoutadmin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+    
+
+</LinearLayout>
