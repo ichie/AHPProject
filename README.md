@@ -2,7 +2,7 @@ AHPProject
 ==========
 
 This is my project about SLR. What is SLR?
-SLR is Self-Regulated Learning. That's about how to know student is ready to study with her/himself or not yet.
+SLR is Self-Regulated Learning. That's about how to know student is ready to study with her/himself or not.
 
 About this app:
 + Admin(Teacher):
